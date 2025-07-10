@@ -1,6 +1,20 @@
 * {
     box-sizing: content-box;
     font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: inline-block;
+}
+
+.card {
+    color: hsl(216.52deg 11.79% 38.24%);
+}
+
+.section {
+    padding: 0px 10%;
 }
 
 .dark {
@@ -18,18 +32,26 @@
 
 .hero-secondary-text, .link-text {
     font-size: 18px;
-    color: E5E7EB;
+    color: #E5E7EB;
 }
 
 .header-logo-text {
     font-size: 24px;
 }
 
-button {
+button, .cta-box {
     background-color: #3882F6;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #F9FAF8;
 }
 
-.information-header-text, .quote-text {
+.cta-button > button {
+    border: 1px solid white;
+}
+
+.information-header-text, p.quote, .quote-auth {
     color: #1F2937;
 }
 
@@ -38,10 +60,10 @@ button {
     font-weight: 900;
 }
 
-.quote-background {
-    background-color: E5E7EB;
+.grey {
+    background-color: #E5E7EB;
 }
 
-.quote-text {
+p.quote {
     font-size: 36px;
 }
